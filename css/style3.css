@@ -1,0 +1,146 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+#nav{
+    background-color: #333;
+    padding: 0 100px;
+
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    
+
+}
+
+nav ul li {
+    padding: 20px 20px;
+}
+  
+nav ul a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+nav .logo {
+    text-decoration: none;
+    font-size: 24px;
+    color: white;
+}
+
+ul li .active {
+    background-color:#434544;
+    color: #DEC9AE;
+    padding: 22px 21px;
+}
+
+ul li a:hover {
+   color: #DEC9AE;
+}
+
+
+#contact {
+    padding: 20px 100px;
+    
+}
+#contact  span{
+    color: rgb(231, 127, 8);
+}
+
+ 
+form input {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
+form button {
+    background-color: #333;
+    border: none;
+    padding: 10px;
+    color: #fff;
+    margin-top: 15px;
+}
+#location {
+    background-color: #5d5b5b;
+    padding: 40px 40px;
+    color: #fff;
+    text-align: center;
+    
+}
+
+
+ #location .Great {
+    padding: 40px 40px;
+   
+    
+ }
+  #location .Great i {
+    color: #fff;
+    font-size: 30px;
+    padding: 0 50px;
+}
+ 
+ 
+
+ #location .Great h3 {
+    font-size: 20px;
+    color: #1D1D1D;
+    padding: 14px 18px;
+ } 
+    
+
+ #location .phone {
+        
+    padding: 40px 40px;           
+    }
+
+  #location .phone i {
+  color: #fff;
+  font-size: 30px;
+  padding: 0 50px;
+   }
+     
+    
+    #location .phone h3 {
+    font-size: 20px;
+    color: #1D1D1D;
+    padding: 14px 18px;
+    }    
+
+
+    #location .Email {
+        
+        padding: 40px 40px;
+    }
+    #location .Email i {
+        color: #fff;
+        font-size: 30px;
+        padding: 0 50px;
+    }
+     
+    
+    #location .Email h3 {
+        font-size: 20px;
+        color: #1D1D1D;
+        padding: 14px 18px;
+    }
+   
+    
+  
+    footer{
+        background-color: #444242;
+        height: 73px;
+        text-align: center;
+        padding: 38px;
+        color: white;
+        font-size: 16px;
+        
+     }
